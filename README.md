@@ -4,7 +4,7 @@ Welcome to my professional portfolio! This site showcases my experience, experti
 
 🌐 Live Portfolio
 
-[**Visit Portfolio**](https://yourusername.github.io) *(Replace with your actual GitHub username)*
+[**Visit Portfolio**](https://yourusername.github.io) 
 
 📋 About
 
