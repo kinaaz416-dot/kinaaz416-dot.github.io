@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Kishwar Shaik</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-theme="light" data-page="projects">
+  <div class="mesh mesh-a" aria-hidden="true"></div>
+  <div class="mesh mesh-b" aria-hidden="true"></div>
+  <div class="scroll-progress" id="scroll-progress"></div>
+
+  <header class="site-header">
+    <a class="logo" href="index.html">Kishwar Shaik</a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">Menu</button>
+    <nav id="site-nav">
+      <a href="index.html">Home</a>
+      <a href="expertise.html">Expertise</a>
+      <a href="experience.html">Experience</a>
+      <a href="projects.html">Projects</a>
+      <a href="education.html">Education</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a class="resume-chip" href="Kishwar_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+      <button class="theme-toggle" type="button" aria-label="Toggle color theme" id="theme-toggle">Dark Mode</button>
+    </div>
+  </header>
+
+  <main class="portfolio-shell subpage">
+    <section class="page-hero card reveal in-view">
+      <div>
+        <p class="kicker">Project Portfolio</p>
+        <h1>Selected projects that combine innovation with business value.</h1>
+        <p>Filter projects by focus area to explore product, data, and AI work.</p>
+      </div>
+      <img src="20250425-IMG_3318.jpg" alt="Kishwar Shaik portrait" />
+    </section>
+
+    <section class="card section reveal in-view">
+      <div class="filter-row">
+        <button class="filter-btn active" data-filter="all" type="button">All</button>
+        <button class="filter-btn" data-filter="ai" type="button">AI</button>
+        <button class="filter-btn" data-filter="analytics" type="button">Analytics</button>
+        <button class="filter-btn" data-filter="product" type="button">Product</button>
+      </div>
+
+      <div class="project-cards filter-grid">
+        <article class="project-item tilt-card" data-category="ai analytics">
+          <h3>AI Voice Agent</h3>
+          <p>Built an intelligent voice agent integrating speech recognition, language generation, and text-to-speech modules with custom voice cloning for natural conversations.</p>
+          <p class="meta">Focus: NLP, RAG, Conversational AI</p>
+        </article>
+
+        <article class="project-item tilt-card" data-category="product analytics">
+          <h3>Era.Band: Digital Mindfulness Platform</h3>
+          <p>Co-founded a platform promoting mindful digital behavior using predictive analytics and iterative feedback to improve usability before launch.</p>
+          <p class="meta">Focus: Product analytics, feature refinement</p>
+        </article>
+
+        <article class="project-item tilt-card" data-category="analytics">
+          <h3>E-Commerce Consultancy Project</h3>
+          <p>Used R and Tableau for clustering and regression over Amazon e-commerce data to identify customer segments and optimize product and regional strategy.</p>
+          <p class="meta">Focus: Segmentation, regression, strategic recommendations</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="card section reveal in-view">
+      <div class="section-head">
+        <p class="kicker">Case Studies</p>
+        <h2>Impact Snapshots</h2>
+      </div>
+      <div class="case-grid">
+        <article class="tilt-card">
+          <h3>Data Accuracy Program</h3>
+          <p>Standardized KPI definitions and dashboard processes across teams.</p>
+          <ul><li>Result: 20% increase in reporting accuracy</li></ul>
+        </article>
+        <article class="tilt-card">
+          <h3>Lead Funnel Lift</h3>
+          <p>Connected engagement signals to practical conversion interventions.</p>
+          <ul><li>Result: 15% conversion growth</li></ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">Top</button>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
